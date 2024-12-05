@@ -150,7 +150,7 @@ module.exports = require('machine').build({
             }
 
             // If also an integer set auto increment attribute
-            if (column.Type === 'int(11)') {
+            if (column.Extra === 'auto_increment') {
               schema[column.Field].autoIncrement = true;
             }
 

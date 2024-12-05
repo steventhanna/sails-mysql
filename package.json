@@ -28,7 +28,7 @@
     "@sailshq/lodash": "^3.10.2",
     "async": "2.6.4",
     "machine": "^15.0.0-21",
-    "machinepack-mysql": "^5.0.0",
+    "machinepack-mysql": "https://gitlab.com/newtee-public/sailshq-machinepack-mysql2",
     "waterline-utils": "^1.3.10"
   },
   "devDependencies": {

@@ -2,6 +2,7 @@ var assert = require('assert');
 var _ = require('@sailshq/lodash');
 var Adapter = require('../../../lib/adapter');
 var Support = require('../../support/bootstrap');
+/* global describe, it, before, after */
 
 describe('Unit Tests ::', function() {
   describe('Define', function() {
